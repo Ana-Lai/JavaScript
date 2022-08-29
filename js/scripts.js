@@ -6,15 +6,15 @@
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
 
-//let nombreUsuario = prompt("Ingrese su nombre")
+let nombreUsuario = prompt("Ingrese su nombre")
 
-//let apellidoUsuario = prompt("Ingrese su apellido")
+let apellidoUsuario = prompt("Ingrese su apellido")
 
-//let salida = nombreUsuario + " " + apellidoUsuario + " " + "ha ingresado"
+let salida = nombreUsuario + " " + apellidoUsuario + " " + "ha ingresado"
 
-//alert(salida)
+alert(salida)
 
-/*!const listadoNotas = [5, 7, 3];
+const listadoNotas = [5, 7, 3];
 
 let sumadorDeNotas = 0;
 for(let posicion = 0; posicion < 3; posicion++) { // 0 1 2
@@ -47,7 +47,7 @@ agregarAlCarrito()
 agregarAlCarrito()
 
 
-// Ejercicio 1
+Ejercicio 1
 
 const username = "Ana";
 const password = "password";
@@ -61,7 +61,7 @@ if (usernameLogin === username && passwordLogin === password) {
     alert (username + Numero + password)
 } else {
     alert ("401 Unathorized");
-}*/
+}
 
 function cotizador (monto, plazo) {
     valor_cuotas = monto / plazo;
